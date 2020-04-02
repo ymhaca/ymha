@@ -1,0 +1,63 @@
+@media (min-width: 300px) {
+  #myInput {
+    width: 30%;
+    padding: 5px 10px 5px 10px;
+    margin: 15% 2% 1% 0%;
+    display: inline-block;
+    border: 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #myInput {
+    width: 30%;
+    padding: 5px 10px 5px 10px;
+    margin: 5% 2% 1% 0%;
+    display: inline-block;
+    border: 0;
+  }
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  border-bottom: none;
+  margin-top: -1px;
+  background-color: #f6f6f6;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  display: block;
+  padding: 3% 2% 2% 3%;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+#myUL li p {
+  background-color: #f6f6f6;
+  text-decoration: none;
+  color: black;
+  display: block;
+  border-bottom: 1px solid #ddd;
+  padding: 0 3% 3% 3%;
+  text-align: justify;
+}
+
+.searchbar {
+  background-color: rgb(92,89,89);
+  text-align: right;
+}
+
+.searchicon {
+  background-color: rgb(195,180,180);
+  padding: 9px;
+  border: 0px;
+}
+
